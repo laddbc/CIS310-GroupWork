@@ -1,0 +1,28 @@
+#+STARTUP: showall
+#+TITLE: Group Work Source Code
+#+SUBTITLE: CIS 310: Operating Systems
+#+AUTHOR: Brian C. Ladd
+#+DATE: Fall 2020
+
+* POGIL - The Acronym for "Group Work" This Fall
+  I am following many of the ideas of POGIL (no reason to look up the
+  words behind the letters): four basic roles for the group, having
+  you communicate with one another on what the questions mean, etc.
+
+  I am also trying, very hard, not to ask "What is the value of i?"
+  type questions, but rather "Explain how the value of i relates to
+  the user input typed seven lines above." More "why" than "what".
+
+* The Code
+  These programs go with related POGIL work documents that ask
+  questions about them to help you learn C++ and/or operating systems
+  with your group.
+
+** gCPlusPlus
+   The first program. Much of the content was borrowed from Tammy
+   VanDeGrift's work on POGIL for starting C++.
+
+** gCPointers
+   Java programmers getting a chance to see what a C/C++ pointer
+   is. Arrays, RAM addresses, pointers, dereferencing, pointer
+   arithmetic.
