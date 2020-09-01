@@ -53,7 +53,7 @@ int main(int argc, char *argv[]) {
 
   ptr += 1;
   *ptr = 10;
-  i = 2; // ptr - first
+  i = ptr - first; //
   printf("%d: ptr is %p\n", count++, ptr);
   printf("%d: first[%d] is %d\n", count++, i, first[i]);
   printf("<<<<< Dump Memory after count = %d >>>>>\n", count - 1);
@@ -66,7 +66,8 @@ int main(int argc, char *argv[]) {
   ptrptr--;
   (*ptr)--;
   printf("%d: second[0], second[1] are %p, %p\n", count++, second[0], second[1]);
-  printf("%d: dereferenced they are %d, %d\n", count++, *second[0], *second[1]);
+  printf("%d:     dereferenced they are %d, %d\n", count++, *second[0], *second[1]);
+  printf("%d:     their addresses are %p, %p\n", count++, &second[0], &second[1]);
   printf("<<<<< Dump Memory after count = %d >>>>>\n", count - 1);
 
   // name and str
